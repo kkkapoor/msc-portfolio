@@ -14,9 +14,6 @@ This is my **one-page personal portfolio site** created using **HTML + CSS only*
 1. Clone/download this repo.  
 2. Open `index.html` in any browser.  
 
-## 🌍 Live Demo
-[Click Here](https://kkkapoor.github.com/msc-portfolio/)
-
 ---
 💡 **Highlights**  
 > “I used pure HTML and CSS, added unique effects like gradient text, typewriter animation, and hover interaction. My goal was to make it clean yet interactive, reflecting both creativity and precision. I ensured professionalism with favicon, README polish, and responsive design.”
