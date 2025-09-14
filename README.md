@@ -15,7 +15,7 @@ This is my **one-page personal portfolio site** created using **HTML + CSS only*
 2. Open `index.html` in any browser.  
 
 ## 🌍 Live Demo
-[Click Here](https://kkkapoor.github.io/msc-portfolio/)
+[Click Here](https://kkkapoor.github.com/msc-portfolio/)
 
 ---
 💡 **Highlights**  
