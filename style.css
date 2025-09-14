@@ -1,0 +1,130 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 70px 20px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+header img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 4px solid #22d3ee;
+  box-shadow: 0 0 25px rgba(34, 211, 238, 0.6);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 20px 0 10px;
+  background: linear-gradient(90deg, #22d3ee, #0ea5e9, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradientMove 5s infinite linear;
+  letter-spacing: 2px;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.bio {
+  max-width: 650px;
+  margin: auto;
+  font-size: 1.15rem;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #22d3ee;
+  width: 0;
+  animation: typing 4s steps(50, end) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0ea5e9;
+  position: relative;
+  display: inline-block;
+}
+
+section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #22d3ee;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+section p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.fun-button {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 15px 35px;
+  background: #22d3ee;
+  color: #0f172a;
+  border-radius: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.fun-button:hover {
+  background: #0ea5e9;
+  color: white;
+  transform: scale(1.15) rotate(-2deg);
+  box-shadow: 0 8px 25px rgba(34, 211, 238, 0.8);
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #22d3ee;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  text-decoration: underline;
+}
